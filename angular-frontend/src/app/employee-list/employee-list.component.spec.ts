@@ -17,7 +17,7 @@ describe('EmployeeListComponent', () => {
     fixture = TestBed.createComponent(EmployeeListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  }
+  });
 
   it('should create', () => {
     expect(component).toBeTruthy();
