@@ -22,7 +22,7 @@ export class EmployeeListComponent implements OnInit {
     this.employeeService.getEmployeesList().subscribe(data => {
       this.employees = data;
     });
-  
+  }
 
   employeeDetails(id: number){
     this.router.navigate(['employee-details', id]);
